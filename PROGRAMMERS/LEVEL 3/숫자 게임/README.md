@@ -1,4 +1,4 @@
-# [프로그래머스/Level 3] 숫자 게임
+# [프로그래머스/Level 3] 숫자 게임 - python3
 
 **코딩테스트 연습 > Summer/Winter Coding(~2018) > 숫자 게임
 **

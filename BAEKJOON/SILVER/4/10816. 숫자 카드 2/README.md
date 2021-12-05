@@ -1,4 +1,4 @@
-## 10816. 숫자 카드 2
+## 10816. 숫자 카드 2 - python3
 https://www.acmicpc.net/problem/10816
 
 #### 내 풀이 - 성공

@@ -1,4 +1,4 @@
-## 1. Two Sum
+## 1. Two Sum - python3
 https://leetcode.com/problems/two-sum/
 
 #### My Answer 1: Accepted (Runtime: 652 ms - 37.24% / Memory Usage: 14.9 MB - 80.43%)

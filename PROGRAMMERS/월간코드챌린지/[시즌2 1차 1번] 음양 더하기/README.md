@@ -1,4 +1,4 @@
-# [Review] 월간 코드 챌린지 시즌2 1차 1번 - 음양 더하기
+# [Review] 월간 코드 챌린지 시즌2 1차 1번 - 음양 더하기 - python3
 
 #### 음양 더하기 - Level 1
 https://programmers.co.kr/learn/courses/30/lessons/76501

@@ -1,4 +1,4 @@
-## 1003. 피보나치 함수
+## 1003. 피보나치 함수 - python3
 https://www.acmicpc.net/problem/1003
 
 #### 내 풀이 - 성공

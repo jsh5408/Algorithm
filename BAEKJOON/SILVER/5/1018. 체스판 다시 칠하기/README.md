@@ -1,4 +1,4 @@
-## 1018. 체스판 다시 칠하기
+## 1018. 체스판 다시 칠하기 - python3
 https://www.acmicpc.net/problem/1018
 
 #### 내 풀이 - 실패

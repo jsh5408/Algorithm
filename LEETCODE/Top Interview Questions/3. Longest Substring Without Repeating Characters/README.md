@@ -1,4 +1,4 @@
-## 3. Longest Substring Without Repeating Characters
+## 3. Longest Substring Without Repeating Characters - python3
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 #### My Answer 1: Accepted (Runtime: 404 ms - 17.05% / Memory Usage: 14.2 MB - 93.12%)

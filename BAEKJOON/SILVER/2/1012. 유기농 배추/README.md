@@ -1,4 +1,4 @@
-## 1012. 유기농 배추
+## 1012. 유기농 배추 - python3
 https://www.acmicpc.net/problem/1012
 
 #### 내 풀이 - 성공

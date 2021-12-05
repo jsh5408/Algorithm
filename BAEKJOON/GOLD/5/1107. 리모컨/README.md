@@ -1,4 +1,4 @@
-## 1107. 리모컨
+## 1107. 리모컨 - python3
 https://www.acmicpc.net/problem/1107
 
 #### 내 풀이 - 실패

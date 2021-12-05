@@ -1,4 +1,4 @@
-## 9095. 1, 2, 3 더하기
+## 9095. 1, 2, 3 더하기 - python3
 https://www.acmicpc.net/problem/9095
 
 #### 내 풀이 - 성공

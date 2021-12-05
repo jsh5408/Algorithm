@@ -1,4 +1,4 @@
-## 1074. Z
+## 1074. Z - python3
 https://www.acmicpc.net/problem/1074
 
 #### 내 풀이 - 실패

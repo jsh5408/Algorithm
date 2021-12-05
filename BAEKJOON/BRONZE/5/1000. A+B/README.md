@@ -1,4 +1,4 @@
-## 1000. A+B
+## 1000. A+B - python3
 https://www.acmicpc.net/problem/1000
 
 #### 내 풀이 - 성공

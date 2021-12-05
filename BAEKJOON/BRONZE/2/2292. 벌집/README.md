@@ -1,4 +1,4 @@
-## 2292. 벌집
+## 2292. 벌집 - python3
 https://www.acmicpc.net/problem/2292
 
 #### 내 풀이 - 성공
