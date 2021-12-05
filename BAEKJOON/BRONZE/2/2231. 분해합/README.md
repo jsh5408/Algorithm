@@ -1,4 +1,4 @@
-## 2231. 분해합
+## 2231. 분해합 - python3
 https://www.acmicpc.net/problem/2231
 
 #### 내 풀이 - 성공
