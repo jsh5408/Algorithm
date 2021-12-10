@@ -17,3 +17,6 @@ https://leetcode.com/
 https://programmers.co.kr/
 - 코딩테스트 고득점 Kit
 - 월간코드챌린지
+
+## 파이썬 알고리즘 인터뷰
+- 6장 문자열 조작
