@@ -57,7 +57,7 @@ int main()
 
 		for(int i=0;i<M;i++) {
 			scanf("%d %d %d", &U, &V, &P);
-			v[U].push_back(Data(V, P));	// a -> b 의 경우 저장
+			v[U].push_back(Data(V, P));
 		}
 
 		dist[S] = 0;
