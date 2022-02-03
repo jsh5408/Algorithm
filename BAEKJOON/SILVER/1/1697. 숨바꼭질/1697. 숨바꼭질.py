@@ -1,31 +1,23 @@
 import sys
-sys.setrecursionlimit(10**5)
+import collections
 
 N, K = map(int, sys.stdin.readline().split())
 
-ans = abs(K-N)
-M = N
-while M < K:
-    M *= 2
+queue = collections.deque()
+dist = collections.defaultdict(int)
+visited = collections.defaultdict(int)
 
-def func(n, k, cnt):
-    global ans, M
-    
-    if ans < cnt:
-        return
-    if n == k:
-        ans = min(ans, cnt)
-        return
+queue.append(N)
+visited[N] = 1
 
-    # 걷기
-    if n-1 >= 0 and cnt+1 <= ans:
-        func(n-1, k, cnt+1)
-    if n+1 <= k and cnt+1 <= ans:
-        func(n+1, k, cnt+1)
-
-    # 순간이동
-    if n*2 <= M and cnt+1 <= ans:
-        func(n*2, k, cnt+1)
-
-func(N, K, 0)
-print(ans)
+# bfs
+while queue:
+    node = queue.popleft()
+    if node == K:
+        print(dist[node])
+        break
+    for next_node in (node-1, node+1, 2*node):
+        if visited[next_node] != 1 and next_node <= 100000:
+            queue.append(next_node)
+            visited[next_node] = 1
+            dist[next_node] = dist[node] + 1
