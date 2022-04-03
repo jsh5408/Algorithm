@@ -174,3 +174,44 @@ DP 값을 사용한 재귀로 변경하니까 통과됐다!
 아직 구하지 않은 값은 재귀를 돌려줬다.
 
 ![](https://media.vlpt.us/images/jsh5408/post/d1065623-2bf3-4b9b-b399-04c1f704e657/image.png)
+
+#### DP 2 - 성공
+```
+#include <stdio.h>
+#include <iostream>
+
+#define MAXN 1005
+
+using namespace std;
+
+int N;
+int nums[MAXN];
+int ans;
+
+int main()
+{
+	//freopen("input.txt", "r", stdin);
+
+	scanf("%d", &N);
+
+	nums[0] = 0;
+	nums[1] = 1;
+	nums[2] = 2;
+
+	for (int i = 3; i <= N; i++) {
+		nums[i] = (nums[i - 1] + nums[i - 2]) % 10007;
+	}
+
+	printf("%d", nums[N]);
+
+	return 0;
+}
+```
+![](https://media.vlpt.us/images/jsh5408/post/b75c9e3c-32f0-4d93-bd25-03cbc34a8407/image.png)
+
+재귀를 사용하지 않고 반복문 만으로 더 간단하게 풀 수 있다.
+점화식 => `nums[n] = nums[n-1] + nums[n-2]`
+
+![](https://media.vlpt.us/images/jsh5408/post/15ae85ae-44ee-4619-80c0-8cee7c3fa6c0/image.png)
+
+> 참고) https://assb.tistory.com/entry/%EB%B0%B1%EC%A4%80-11726%EB%B2%88-2xn-%ED%83%80%EC%9D%BC%EB%A7%81
