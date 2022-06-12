@@ -1,0 +1,22 @@
+from sys import stdin
+import collections
+
+T = int(stdin.readline())
+dp = collections.defaultdict(list)
+
+dp[0] = [1, 0]
+dp[1] = [0, 1]
+
+def func(n):
+    if n in dp:
+        return dp[n]
+    else:
+        a = func(n-1)
+        b = func(n-2)
+        dp[n] = [a[0]+b[0], a[1]+b[1]]
+        return dp[n]
+
+for t in range(T):
+    N = int(stdin.readline())
+    dp[N] = func(N)
+    print(dp[N][0], dp[N][1])
